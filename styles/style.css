@@ -1,0 +1,66 @@
+/* --- TEAM LEAD: umair9211(L1F22BSCS1105) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+.main-header {
+    background: #003366;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.main-nav a:hover {
+    text-decoration: underline;
+}
+.home-container {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.hero p {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+.cta-button {
+    background: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ddd;
+    margin-top: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-nav {
+        margin-top: 10px;
+    }
+    .main-nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
