@@ -104,3 +104,46 @@ footer {
         min-width: auto;
     }
 }
+
+/* --- MEMBER 4 Umar-1910(L1F22BSCS1091): HIGHLIGHTS.HTML STYLES --- */
+.highlights-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.highlight-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    position: relative;
+}
+.badge {
+    background: #ffcc00;
+    color: #003366;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+.highlight-item h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Member 4 Media Query */
+@media (max-width: 768px) {
+    .highlight-item {
+        text-align: center;
+    }
+    .badge {
+        position: static;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
