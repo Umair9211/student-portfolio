@@ -147,6 +147,38 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+/*Member 3 @shootssl L1F22BSCS0734*/
+/* --- MEMBER 3: JOIN.HTML STYLES --- */
+.join-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.join-steps {
+    margin-bottom: 2rem;
+    padding-left: 20px;
+}
+.join-steps li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+.guidelines {
+    background: #e6f2ff;
+    padding: 15px;
+    border-left: 4px solid #003366;
+}
+
+/* Member 3 Media Query */
+@media (max-width: 600px) {
+    .join-content {
+        padding: 1rem;
+    }
+    .join-steps li {
+        font-size: 1rem;
 /* --- MEMBER 1 faisalsaeedfs32-arch(L1F22BSCS0326): CLUBS.HTML STYLES --- */
 .page-container {
     padding: 2rem;
