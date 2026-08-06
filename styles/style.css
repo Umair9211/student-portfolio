@@ -179,5 +179,41 @@ footer {
     }
     .join-steps li {
         font-size: 1rem;
+/* --- MEMBER 1 faisalsaeedfs32-arch(L1F22BSCS0326): CLUBS.HTML STYLES --- */
+.page-container {
+    padding: 2rem;
+}
+.page-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.club-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.club-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.club-card h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Member 1 Media Query */
+@media (max-width: 900px) {
+    .club-card {
+        width: calc(50% - 20px);
+    }
+}
+@media (max-width: 600px) {
+    .club-card {
+        width: 100%;
     }
 }
