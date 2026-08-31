@@ -1,9 +1,6 @@
 name: Hello World Workflow
 
-on:
-  push:
-    branches:
-      - '*'
+on: [push]
 
 jobs:
   say-hello:
